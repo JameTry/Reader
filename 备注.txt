@@ -1,0 +1,3 @@
+打包
+
+pyinstaller -F --name=touch-fish-reader .\web.py --add-data "templates;templates"  --add-data "static;static"
